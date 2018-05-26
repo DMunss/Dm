@@ -199,8 +199,7 @@
     <Content Include="Content\download %284%29.jpg" />
     <Content Include="Content\download.jpg" />
     <Content Include="Content\Site.css" />
-    <Content Include="..\..\..\..\..\Desktop\DM\Default.aspx">
-      <Link>Default.aspx</Link>
+    <Content Include="Default.aspx">
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -371,12 +370,12 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="..\..\..\..\..\Desktop\DM\Default.aspx.cs">
+    <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
       <Link>Default.aspx.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\..\..\Desktop\DM\Default.aspx.designer.cs">
+    <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <Link>Default.aspx.designer.cs</Link>
     </Compile>
